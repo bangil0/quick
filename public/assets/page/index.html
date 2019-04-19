@@ -1,0 +1,732 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
+<meta itemprop="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
+<title>Dashboard monitoring aplikasi keuangan Bumo</title>
+
+<link rel="stylesheet" type="text/css" href="../css/themify-icons.css">
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../css/morris.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/fill.box.js"></script>
+<script src="../js/waypoints.min.js"></script>
+<script src="../js/jquery.counterup.min.js"></script>
+<script src="../js/raphael-min.js"></script>
+<script src="../js/morris.js"></script>
+
+</head>
+
+<body>
+
+<div id="main">
+	
+    <header class="main-header">
+    	<div class="topbar-header">
+        	<div class="container-fluid">
+            	<a class="logo" href="#!">Bumdes</a>
+                <h5 class="app-title">Dashboard Monitoring Aplikasi Keuangan Bumo</h5>
+                <div class="topbar-right">
+                	<ul class="topbar-menu">
+                    	<li><a href="#!" class="icon-btn" data-toggle="dropdown"><span class="icon ti-bell"></span><div class="notif"><span class="count">2</span></div></a>
+                        	<ul class="dropdown-menu dropdown-menu-right dropdown-notif">
+                                <li>
+                                	<div class="dropdown-heading">
+                                        Notification
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="dropdown-notif--content">
+                                    	<a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li><a href="#!" class="more-notif--btn">See More</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="#!" class="icon-btn" data-toggle="dropdown"><span class="icon ti-email"></span><div class="notif"></div></a>
+                        	<ul class="dropdown-menu dropdown-menu-right dropdown-notif">
+                                <li>
+                                	<div class="dropdown-heading">
+                                        Notification
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="dropdown-notif--content">
+                                    	<h5 class="empty">Notification empty</h5>
+                                    </div>
+                                </li>
+                                <li><a href="#!" class="more-notif--btn">See More</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                        	<div class="user-menu">
+                                <a href="#!" data-toggle="dropdown">
+                                    <span class="user-avatar">
+                                        <div class="thumb">
+                                            <img src="../images/avatar_profile.png">
+                                        </div>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <div class="dropdown-heading">
+                                            <h5 class="user-name">Username</h5>
+                                            <div class="user-type">administrator</div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#!">Account</a></li>
+                                    <li><a href="#!">Setting</a></li>
+                                    <li><a href="pages/lock-screen.html">Lock-Screen</a></li>
+                                    <li><a href="../index.html">Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul><!-- topbar-user -->
+                </div><!-- topbar-right -->
+            </div><!-- container -->
+        </div><!-- topbar-header -->
+        <nav class="header-nav">
+        	<div class="container-fluid">
+            	<div class="header-menu">
+                	<ul class="menu">
+                    	<li class="active"><a href="index.html"><span class="icon icon-layers"></span>Dashboard</a></li>
+                        <li><a>Pages</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="../index.html">Login</a></li>
+                                <li><a href="pages/register.html">Register</a></li>
+                                <li><a href="pages/lock-screen.html">Lock-screen</a></li>
+                                <li><a href="pages/blank-page.html">Blank Page</a></li>
+                                <li><a href="pages/error-404.html">Error 404</a></li>
+                                <li><a href="pages/confirm-mail.html">Confirm Email</a></li>
+                                <li><a href="pages/season-expired.html">Season Expired</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Apps</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a>Inbox<span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a href="apps/inbox.html">Mail Box</a></li>
+                                        <li><a href="apps/inbox-detail.html">Inbox Detail</a></li>
+                                        <li><a href="apps/compose-mail.html">Compose Mail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="apps/charts.html">Charts</a></li>
+                                <li><a href="apps/google-maps.html">Google Maps</a></li>
+                                <li><a href="apps/calendar.html">Calendar</a></li>
+                                <li><a>Icons<span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a href="apps/linea-icons.html">Linea Icons</a></li>
+                                        <li><a href="apps/material-icons.html">Material Icons</a></li>
+                                        <li><a href="apps/themify-icons.html">Themify Icons</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a>Ui Kit</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="ui-kit/panels.html">Panels</a></li>
+                                <li><a href="ui-kit/buttons.html">Buttons</a></li>
+                                <li><a href="ui-kit/typography.html">Typography</a></li>
+                                <li><a href="ui-kit/tabs.html">Tabs</a></li>
+                                <li><a href="ui-kit/modals.html">Modals</a></li>
+                                <li><a href="ui-kit/accordions.html">Accordions</a></li>
+                                <li><a href="ui-kit/Notifications.html">Notifications</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Forms</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="forms/form-basic.html">Basic Forms</a></li>
+                                <li><a href="forms/form-layout.html">Form Layout</a></li>
+                                <li><a href="forms/form-addons.html">Form Addons</a></li>
+                                <li><a href="forms/form-dropzone.html">File Dropzone</a></li>
+                                <li><a href="forms/form-pickers.html">Form Pickers</a></li>
+                                <li><a href="forms/form-xeditable.html">X-Editable</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Tables</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="tables/basic-table.html">Basic Tables</a></li>
+                                <li><a href="tables/table-layout.html">Table Layout</a></li>
+                                <li><a href="tables/data-table.html">Data Table</a></li>
+                                <li><a href="tables/editable-tables.html">Editable Tables</a></li>
+                                <li><a href="tables/foo-tables.html">FooTables</a></li>
+                                <li><a href="tables/jsgrid.html">JsGrid Tables</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Multi Level</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a>Second Level Item</a></li>
+                                <li><a>Third Level <span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>Second Level Item</a></li>
+                                <li><a>Third Level <span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- header-menu -->
+            </div><!-- container -->
+        </nav><!-- header-nav -->
+    </header>
+    
+    <section class="page-content">
+    
+    	<section class="bg-title">
+        	<div class="container-fluid">
+            	<h5 class="page-title">Dashboard</h5>
+                <ul class="breadcrumb">
+                	<li>Home</li>
+                	<li>Dashboard</li>
+                </ul>
+            </div><!-- container -->
+        </section><!-- bg-title -->
+        
+        <section class="main-page--content">
+        	<div class="container-fluid">
+            	<div class="row">
+                	<div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper text-left icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Key Besar Utara Barat</h5>
+                                </div>
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">24</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Besar</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">38</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Besar Selatan</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">10</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Besar Selatan Barat</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">13</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Besar Utara Timur</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">30</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Kecil</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">14</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Manyeuw</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">9</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Kecil Timur</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">18</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel panel-button">
+                        	<a href="#!">
+                        	<div class="panel-body" style="height:100px">
+                            	<span class="wrapper icon ti-flag-alt-2"></span>
+                                <div class="wrapper">
+                                	<span class="text-muted">Kecamatan</span>
+                                	<h5>Kei Kecil Timur Selatan</h5>
+                                </div><!-- panel-button--group -->
+                                <div class="wrapper text-right">
+                                	<h2 class="counter">11</h2>
+                                </div>
+                            </div><!-- panel-body -->
+                            </a>
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="row">
+                	<div class="col-xs-6">
+                    	<div class="panel">
+                        	<div class="panel-heading">
+                            	<h4 class="text-success">Bumdes Teraktif</h4>
+                            </div><!-- panel-heading -->
+                            <div id="morris-area-chart" class="mt20" style="height:300px"></div>
+                            <div class="panel-wrapper mt20">
+                                <div class="table-responsive">
+                                	<table class="table table-nowrap table-striped table-hover m0">
+                                    	<thead>
+                                        	<tr>
+                                            	<th width="4%">#</th>
+                                                <th>Nama Bumdes</th>
+                                                <th>Kecamatan</th>
+                                                <th>Desa</th>
+                                                <th class="text-right">Pendapatan (Aset)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        	<tr>
+                                            	<td>1</td>
+                                                <td><a href="#!">Lestari</a></td>
+                                                <td><a href="#!">Kei Besar Utara Barat</a></td>
+                                                <td><a href="#!">AD Ohoiwaf</a></td>
+                                                <td class="text-right">91.641.500,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>2</td>
+                                                <td><a href="#!">Karya Mandiri</a></td>
+                                                <td><a href="#!">Kei Besar Utara Barat</a></td>
+                                                <td><a href="#!">AD Ohoiwaf</a></td>
+                                                <td class="text-right">50.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>3</td>
+                                                <td><a href="#!">Subur Makmur</a></td>
+                                                <td><a href="#!">Kei Besar</a></td>
+                                                <td><a href="#!">Elralang</a></td>
+                                                <td class="text-right">30.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>4</td>
+                                                <td><a href="#!">Sejahtera</a></td>
+                                                <td><a href="#!">Kei Besar</a></td>
+                                                <td><a href="#!">Fangamas</a></td>
+                                                <td class="text-right">20.500.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>5</td>
+                                                <td><a href="#!">Maju Jaya</a></td>
+                                                <td><a href="#!">Kei Besar Selatan</a></td>
+                                                <td><a href="#!">Weduar</a></td>
+                                                <td class="text-right">20.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>6</td>
+                                                <td><a href="#!">Sukses Bersama</a></td>
+                                                <td><a href="#!">Kei Besar Selatant</a></td>
+                                                <td><a href="#!">Tutrean</a></td>
+                                                <td class="text-right">15.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>7</td>
+                                                <td><a href="#!">Harapan Jaya</a></td>
+                                                <td><a href="#!">Kei Besar Selatan</a></td>
+                                                <td><a href="#!">Sather</a></td>
+                                                <td class="text-right">13.500.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>8</td>
+                                                <td><a href="#!">Sinar Sejahtera</a></td>
+                                                <td><a href="#!">Manyeuw</a></td>
+                                                <td><a href="#!">Rumadian</a></td>
+                                                <td class="text-right">10.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>9</td>
+                                                <td><a href="#!">Sinar Harapan</a></td>
+                                                <td><a href="#!">Manyeuw</a></td>
+                                                <td><a href="#!">Debut</a></td>
+                                                <td class="text-right">9.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>10</td>
+                                                <td><a href="#!">Maju Bersama</a></td>
+                                                <td><a href="#!">Kei Kecil Timur</a></td>
+                                                <td><a href="#!">Abean</a></td>
+                                                <td class="text-right">8.000.000,-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- panel-wrapper -->
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-6">
+                    	<div class="panel">
+                        	<div class="panel-heading">
+                            	<h4 class="text-success">Realisasi Modal</h4>
+                            </div><!-- panel-heading -->
+                            <div id="morris-bar-chart" class="mt20" style="height:300px"></div>
+                            <div class="panel-wrapper mt20 ">
+                                <div class="table-responsive">
+                                	<table class="table table-nowrap table-striped table-hover m0">
+                                    	<thead>
+                                        	<tr>
+                                            	<th width="4%">#</th>
+                                                <th>Nama Bumdes</th>
+                                                <th>Kecamatan</th>
+                                                <th>Desa</th>
+                                                <th>Modal Awal</th>
+                                                <th class="text-right">Realisasi Modal</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        	<tr>
+                                            	<td>1</td>
+                                                <td><a href="#!">Lestari</a></td>
+                                                <td><a href="#!">Kei Besar Utara Barat</a></td>
+                                                <td><a href="#!">AD Ohoiwaf</a></td>
+                                                <td>200.000.000,-</td>
+                                                <td class="text-right">100.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>2</td>
+                                                <td><a href="#!">Karya Mandiri</a></td>
+                                                <td><a href="#!">Kei Besar Utara Barat</a></td>
+                                                <td><a href="#!">AD Ohoiwaf</a></td>
+                                                <td>150.000.000,-</td>
+                                                <td class="text-right">50.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>3</td>
+                                                <td><a href="#!">Subur Makmur</a></td>
+                                                <td><a href="#!">Kei Besar</a></td>
+                                                <td><a href="#!">Elralang</a></td>
+                                                <td>100.000.000,-</td>
+                                                <td class="text-right">30.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>4</td>
+                                                <td><a href="#!">Sejahtera</a></td>
+                                                <td><a href="#!">Kei Besar</a></td>
+                                                <td><a href="#!">Fangamas</a></td>
+                                                <td>240.000.000,-</td>
+                                                <td class="text-right">200.500.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>5</td>
+                                                <td><a href="#!">Maju Jaya</a></td>
+                                                <td><a href="#!">Kei Besar Selatan</a></td>
+                                                <td><a href="#!">Weduar</a></td>
+                                                <td>100.000.000,-</td>
+                                                <td class="text-right">20.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>6</td>
+                                                <td><a href="#!">Sukses Bersama</a></td>
+                                                <td><a href="#!">Kei Besar Selatant</a></td>
+                                                <td><a href="#!">Tutrean</a></td>
+                                                <td>120.000.000,-</td>
+                                                <td class="text-right">80.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>7</td>
+                                                <td><a href="#!">Harapan Jaya</a></td>
+                                                <td><a href="#!">Kei Besar Selatan</a></td>
+                                                <td><a href="#!">Sather</a></td>
+                                                <td>90.000.000,-</td>
+                                                <td class="text-right">63.500.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>8</td>
+                                                <td><a href="#!">Sinar Sejahtera</a></td>
+                                                <td><a href="#!">Manyeuw</a></td>
+                                                <td><a href="#!">Rumadian</a></td>
+                                                <td>170.000.000,-</td>
+                                                <td class="text-right">70.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>9</td>
+                                                <td><a href="#!">Sinar Harapan</a></td>
+                                                <td><a href="#!">Manyeuw</a></td>
+                                                <td><a href="#!">Debut</a></td>
+                                                <td>200.000.000,-</td>
+                                                <td class="text-right">160.000.000,-</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>10</td>
+                                                <td><a href="#!">Maju Bersama</a></td>
+                                                <td><a href="#!">Kei Kecil Timur</a></td>
+                                                <td><a href="#!">Abean</a></td>
+                                                <td>220.000.000,-</td>
+                                                <td class="text-right">200.000.000,-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- panel-wrapper -->
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="row">
+                	<div class="col-xs-4">
+                    	<div class="panel">
+                        	<div class="panel-heading">
+                            	<h4 class="text-success">Unit Usaha</h4>
+                                <span class="text-muted">Per Kabupaten Maluku Tenggara</span>
+                            </div><!-- panel-heading -->
+                            <div id="morris-donut-chart" class="mt20" style="height:250px"></div>
+                            <div class="panel-wrapper mt20">
+                            	<div class="table-responsive">
+                                	<table class="table table-nowrap table-striped m0">
+                                    	<thead>
+                                        	<tr>
+                                                <th>Nama Unit Usaha</th>
+                                                <th class="text-right">Jumlah</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        	<tr>
+                                            	<td>Simpan Pinjam</td>
+                                                <td class="text-right">170</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>Toko</td>
+                                                <td class="text-right">50</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>Rental</td>
+                                                <td class="text-right">79</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>Kredit Barang</td>
+                                                <td class="text-right">10</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- panel-wrapper -->
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel">
+                        	<div class="panel-heading">
+                            	<h4 class="text-success">Modal, Realisasi, Asset, Piutang</h4>
+                                <span class="text-muted">Per Kabupaten Maluku Tenggara</span>
+                            </div><!-- panel-heading -->
+                            <div id="morris-donut-chart2" class="mt20" style="height:250px"></div>
+                            <div class="panel-wrapper mt20">
+                            	<div class="table-responsive">
+                                	<table class="table table-nowrap table-striped m0">
+                                    	<thead>
+                                        	<tr>
+                                                <th>Indikator</th>
+                                                <th class="text-right">Jumlah</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        	<tr>
+                                            	<td>Modal</td>
+                                                <td class="text-right">1.000</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>Realisasi</td>
+                                                <td class="text-right">500</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>Asset</td>
+                                                <td class="text-right">300</td>
+                                            </tr>
+                                            <tr>
+                                            	<td>Piutang</td>
+                                                <td class="text-right">90</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- panel-wrapper -->
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                    <div class="col-xs-4">
+                    	<div class="panel">
+                        	<div class="panel-heading">
+                            	<h4 class="text-success">Bumdes Defisit Anggaran</h4>
+                                <span class="text-muted">Per Kabupaten Maluku Tenggara</span>
+                            </div><!-- panel-heading -->
+                            <div id="morris-donut-chart3" class="mt20" style="height:250px"></div>
+                            <div class="panel-wrapper mt20">
+                            	<div class="table-responsive">
+                                	<table class="table table-nowrap table-striped m0">
+                                    	<thead>
+                                        	<tr>
+                                            	<th>Nama Bumdes</th>
+                                                <th>Kecamatan</th>
+                                                <th class="text-right">Desa</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        	<tr>
+                                            	<td><a href="#!">Harapan Jaya</a></td>
+                                                <td><a href="#!">Kei Besar Selatan</a></td>
+                                                <td class="text-right"><a href="#!">Shater</a></td>
+                                            </tr>
+                                            <tr>
+                                            	<td><a href="#!">Sinar Sejahtera</a></td>
+                                                <td><a href="#!">Manyeuw</a></td>
+                                                <td class="text-right"><a href="#!">Rumadian</a></td>
+                                            </tr>
+                                            <tr>
+                                            	<td><a href="#!">Sinar Harapan</a></td>
+                                                <td><a href="#!">Manyeuw</a></td>
+                                                <td class="text-right"><a href="#!">Debut</a></td>
+                                            </tr>
+                                            <tr>
+                                            	<td><a href="#!">Maju Bersama</a></td>
+                                                <td><a href="#!">Kei Kecil Timur</a></td>
+                                                <td class="text-right"><a href="#!">Abean</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div><!-- panel-wrapper -->
+                        </div><!-- panel -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </section><!-- main-page--content -->
+        
+    </section><!-- page-content -->
+    
+    <footer class="main-footer">
+    	<div class="container-fluid">
+        	<span class="copyright">
+        		© 2017 Badan Usaha Milik Ohoi (Bumo) Kabupaten Maluku Tenggara
+            </span>
+            <ul class="footer-nav">
+            	<li><a href="#!">Contact Us</a></li>
+                <li><a href="#!">Terms</a></li>
+                <li><a href="#!">Privacy</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</div><!-- main -->
+
+<script src="../js/dashboard-chart-init.js"></script>
+
+<script>
+
+	$('.counter').counterUp({
+		delay: 10,
+		time: 1000
+	});
+
+	$('.thumb img').fillBox();
+	
+	$('.main-header .header-nav').sticky({topSpacing:0});
+	
+</script>
+
+</body>
+</html>

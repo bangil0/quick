@@ -1,0 +1,3175 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
+<meta itemprop="description" content="Aplikasi Keuangan Badan usaha milik Ohoi (Bumo) kabupaten maluku tenggara">
+<title>Dashboard monitoring aplikasi keuangan Bumo</title>
+
+<link rel="stylesheet" type="text/css" href="../../css/themify-icons.css">
+<link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/linea-icons.css">
+<link rel="stylesheet" type="text/css" href="../../css/style.css">
+<link rel="stylesheet" type="text/css" href="../../css/main.css">
+
+<script src="../../js/jquery-2.1.1.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/jquery.sticky.js"></script>
+<script src="../../js/fill.box.js"></script>
+
+</head>
+
+<body>
+
+<div id="main">
+	
+    <header class="main-header">
+    	<div class="topbar-header">
+        	<div class="container-fluid">
+            	<a class="logo" href="#!">Bumdes</a>
+                <h5 class="app-title">Dashboard Monitoring Aplikasi Keuangan Bumo</h5>
+                <div class="topbar-right">
+                	<ul class="topbar-menu">
+                    	<li><a href="#!" class="icon-btn notif-on" data-toggle="dropdown"><span class="icon ti-bell"></span></a>
+                        	<ul class="dropdown-menu dropdown-menu-right dropdown-notif">
+                                <li>
+                                	<div class="dropdown-heading">
+                                        Notification
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="dropdown-notif--content">
+                                    	<a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                        <a href="#!" class="notif-content">
+                                        	<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                            <span class="date">12 January 2017 at 12:15AM</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li><a href="#!" class="more-notif--btn">See More</a></li>
+                            </ul>
+                        </li>
+                    	<li><a href="#!" class="icon-btn" data-toggle="dropdown"><span class="icon ti-email"></span></a>
+                        	<ul class="dropdown-menu dropdown-menu-right dropdown-notif">
+                                <li>
+                                	<div class="dropdown-heading">
+                                        Notification
+                                    </div>
+                                </li>
+                                <li>
+                                	<div class="dropdown-notif--content">
+                                    	<h5 class="empty">Notification empty</h5>
+                                    </div>
+                                </li>
+                                <li><a href="#!" class="more-notif--btn">See More</a></li>
+                            </ul>
+                        </li>
+                    	<li>
+                        	<div class="user-menu">
+                                <a href="#!" data-toggle="dropdown">
+                                    <span class="user-avatar">
+                                        <div class="thumb">
+                                            <img src="../../images/avatar_profile.png">
+                                        </div>
+                                    </span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                    <li>
+                                        <div class="dropdown-heading">
+                                            <h5 class="user-name">Username</h5>
+                                            <div class="user-type">administrator</div>
+                                        </div>
+                                    </li>
+                                    <li><a href="#!">Account</a></li>
+                                    <li><a href="#!">Setting</a></li>
+                                    <li><a href="../pages/lock-screen.html">Lock-Screen</a></li>
+                                    <li><a href="../../index.html">Logout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul><!-- topbar-user -->
+                </div><!-- topbar-right -->
+            </div><!-- container -->
+        </div><!-- topbar-header -->
+        <nav class="header-nav">
+        	<div class="container-fluid">
+            	<div class="header-menu">
+                	<ul class="menu">
+                    	<li><a href="../index.html"><span class="icon icon-layers"></span>Dashboard</a></li>
+                        <li><a>Pages</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="../../index.html">Login</a></li>
+                                <li><a href="../pages/register.html">Register</a></li>
+                                <li><a href="../pages/lock-screen.html">Lock-screen</a></li>
+                                <li><a href="../pages/blank-page.html">Blank Page</a></li>
+                                <li><a href="../pages/error-404.html">Error 404</a></li>
+                                <li><a href="../pages/confirm-mail.html">Confirm Email</a></li>
+                                <li><a href="../pages/season-expired.html">Season Expired</a></li>
+                            </ul>
+                        </li>
+                        <li class="active"><a>Apps</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a>Inbox<span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a href="inbox.html">Mail Box</a></li>
+                                        <li><a href="inbox-detail.html">Inbox Detail</a></li>
+                                        <li><a href="compose-mail.html">Compose Mail</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="charts.html">Charts</a></li>
+                                <li><a href="google-maps.html">Google Maps</a></li>
+                                <li><a href="calendar.html">Calendar</a></li>
+                                <li class="active"><a>Icons<span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li class="active"><a href="linea-icons.html">Linea Icons</a></li>
+                                        <li><a href="material-icons.html">Material Icons</a></li>
+                                        <li><a href="themify-icons.html">Themify Icons</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a>Ui Kit</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="../ui-kit/panels.html">Panels</a></li>
+                                <li><a href="../ui-kit/buttons.html">Buttons</a></li>
+                                <li><a href="../ui-kit/typography.html">Typography</a></li>
+                                <li><a href="../ui-kit/tabs.html">Tabs</a></li>
+                                <li><a href="../ui-kit/modals.html">Modals</a></li>
+                                <li><a href="../ui-kit/accordions.html">Accordions</a></li>
+                                <li><a href="../ui-kit/Notifications.html">Notifications</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Forms</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="../forms/form-basic.html">Basic Forms</a></li>
+                                <li><a href="../forms/form-layout.html">Form Layout</a></li>
+                                <li><a href="../forms/form-addons.html">Form Addons</a></li>
+                                <li><a href="../forms/form-dropzone.html">File Dropzone</a></li>
+                                <li><a href="../forms/form-pickers.html">Form Pickers</a></li>
+                                <li><a href="../forms/form-xeditable.html">X-Editable</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Tables</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a href="../tables/basic-table.html">Basic Tables</a></li>
+                                <li><a href="../tables/table-layout.html">Table Layout</a></li>
+                                <li><a href="../tables/data-table.html">Data Table</a></li>
+                                <li><a href="../tables/editable-tables.html">Editable Tables</a></li>
+                                <li><a href="../tables/foo-tables.html">FooTables</a></li>
+                            </ul>
+                        </li>
+                        <li><a>Multi Level</a>
+                        	<ul class="dropdown-hover">
+                            	<li><a>Second Level Item</a></li>
+                                <li><a>Third Level <span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                    </ul>
+                                </li>
+                                <li><a>Second Level Item</a></li>
+                                <li><a>Third Level <span class="icon-arrow ti-angle-right"></span></a>
+                                	<ul class="dropdown-hover second-level">
+                                    	<li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                        <li><a>Third Level Item</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- header-menu -->
+            </div><!-- container -->
+        </nav><!-- header-nav -->
+    </header>
+    
+    <section class="page-content">
+    
+    	<section class="bg-title">
+        	<div class="container-fluid">
+            	<h5 class="page-title">Linea Icons</h5>
+                <ul class="breadcrumb">
+                	<li><a href="../index.html">Dashboard</a></li>
+                	<li>Apps</li>
+                    <li>Linea Icons</li>
+                </ul>
+            </div><!-- container -->
+        </section><!-- bg-title -->
+        
+        <section class="main-page--content">
+        	<div class="container-fluid">
+            	<div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Basic Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                        	<li>
+                            	<span class="linea-icon linea-basic" data-icon="a"></span>
+                                <pre>a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="b"></span>
+                                <pre>b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="c"></span>
+                                <pre>c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="d"></span>
+                                <pre>d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="e"></span>
+                                <pre>e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="f"></span>
+                                <pre>f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="g"></span>
+                                <pre>g</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="h"></span>
+                                <pre>h</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="i"></span>
+                                <pre>i</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="j"></span>
+                                <pre>j</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="k"></span>
+                                <pre>k</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="l"></span>
+                                <pre>l</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="m"></span>
+                                <pre>m</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="n"></span>
+                                <pre>n</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="o"></span>
+                                <pre>o</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="p"></span>
+                                <pre>p</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="q"></span>
+                                <pre>q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="r"></span>
+                                <pre>r</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="s"></span>
+                                <pre>s</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="t"></span>
+                                <pre>t</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="u"></span>
+                                <pre>u</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="v"></span>
+                                <pre>v</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="w"></span>
+                                <pre>w</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="x"></span>
+                                <pre>x</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="y"></span>
+                                <pre>y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="z"></span>
+                                <pre>z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="A"></span>
+                                <pre>A</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="B"></span>
+                                <pre>B</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="C"></span>
+                                <pre>C</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="D"></span>
+                                <pre>D</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="E"></span>
+                                <pre>E</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="F"></span>
+                                <pre>F</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="G"></span>
+                                <pre>G</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="H"></span>
+                                <pre>H</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="I"></span>
+                                <pre>I</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="J"></span>
+                                <pre>J</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="K"></span>
+                                <pre>K</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="L"></span>
+                                <pre>L</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="M"></span>
+                                <pre>M</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="N"></span>
+                                <pre>N</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="O"></span>
+                                <pre>O</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="P"></span>
+                                <pre>P</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="Q"></span>
+                                <pre>Q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="R"></span>
+                                <pre>R</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="S"></span>
+                                <pre>S</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="T"></span>
+                                <pre>T</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="U"></span>
+                                <pre>U</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="V"></span>
+                                <pre>V</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="W"></span>
+                                <pre>W</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="X"></span>
+                                <pre>X</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="Y"></span>
+                                <pre>Y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="Z"></span>
+                                <pre>Z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="0"></span>
+                                <pre>0</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="1"></span>
+                                <pre>1</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="2"></span>
+                                <pre>2</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="3"></span>
+                                <pre>3</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="4"></span>
+                                <pre>4</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="5"></span>
+                                <pre>5</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="6"></span>
+                                <pre>6</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="7"></span>
+                                <pre>7</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="8"></span>
+                                <pre>8</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="9"></span>
+                                <pre>9</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="!"></span>
+                                <pre>!</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon='"'></span>
+                                <pre></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="#"></span>
+                                <pre>#</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="$"></span>
+                                <pre>$</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="%"></span>
+                                <pre>%</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&"></span>
+                                <pre>&</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="'"></span>
+                                <pre>'</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="("></span>
+                                <pre>(</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon=")"></span>
+                                <pre>)</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="*"></span>
+                                <pre>*</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="+"></span>
+                                <pre>+</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon=","></span>
+                                <pre>,</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="-"></span>
+                                <pre>-</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="."></span>
+                                <pre>.</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="/"></span>
+                                <pre>/</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon=":"></span>
+                                <pre>:</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon=";"></span>
+                                <pre>;</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="<"></span>
+                                <pre><</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="="></span>
+                                <pre>=</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon=">"></span>
+                                <pre>></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="?"></span>
+                                <pre>?</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="@"></span>
+                                <pre>@</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="["></span>
+                                <pre>[</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="]"></span>
+                                <pre>]</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="^"></span>
+                                <pre>^</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="_"></span>
+                                <pre>_</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="`"></span>
+                                <pre>`</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="{"></span>
+                                <pre>{</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="|"></span>
+                                <pre>|</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="}"></span>
+                                <pre>}</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="~"></span>
+                                <pre>~</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="\"></span>
+                                <pre>\</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe000;"></span>
+                                <pre>&amp#xe000</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe001;"></span>
+                                <pre>&amp#xe001</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe002;"></span>
+                                <pre>&amp#xe002</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe003;"></span>
+                                <pre>&amp#xe003</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe004;"></span>
+                                <pre>&amp#xe004</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe005;"></span>
+                                <pre>&amp#xe005</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe006;"></span>
+                                <pre>&amp#xe006</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe007;"></span>
+                                <pre>&amp#xe007</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe008;"></span>
+                                <pre>&amp#xe008</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe009;"></span>
+                                <pre>&amp#xe009</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe00a;"></span>
+                                <pre>&amp#xe00a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe00b;"></span>
+                                <pre>&amp#xe00b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe00c;"></span>
+                                <pre>&amp#xe00c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe00d;"></span>
+                                <pre>&amp#xe00d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe00e;"></span>
+                                <pre>&amp#xe00e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe00f;"></span>
+                                <pre>&amp#xe00f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe010;"></span>
+                                <pre>&amp#xe010</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe011;"></span>
+                                <pre>&amp#xe011</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe012;"></span>
+                                <pre>&amp#xe012</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe013;"></span>
+                                <pre>&amp#xe013</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe014;"></span>
+                                <pre>&amp#xe014</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe015;"></span>
+                                <pre>&amp#xe015</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe016;"></span>
+                                <pre>&amp#xe016</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe017;"></span>
+                                <pre>&amp#xe017</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe018;"></span>
+                                <pre>&amp#xe018</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe019;"></span>
+                                <pre>&amp#xe019</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe01a;"></span>
+                                <pre>&amp#xe01a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe01b;"></span>
+                                <pre>&amp#xe01b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe01c;"></span>
+                                <pre>&amp#xe01c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe01d;"></span>
+                                <pre>&amp#xe01d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe01e;"></span>
+                                <pre>&amp#xe01e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe01f;"></span>
+                                <pre>&amp#xe01f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe020;"></span>
+                                <pre>&amp#xe020</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe021;"></span>
+                                <pre>&amp#xe021</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe022;"></span>
+                                <pre>&amp#xe022</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe023;"></span>
+                                <pre>&amp#xe023</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe024;"></span>
+                                <pre>&amp#xe024</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe025;"></span>
+                                <pre>&amp#xe025</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe026;"></span>
+                                <pre>&amp#xe026</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe027;"></span>
+                                <pre>&amp#xe027</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-basic" data-icon="&#xe028;"></span>
+                                <pre>&amp#xe028</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+                <div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Basic Elaborate Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                        	<li>
+                            	<span class="linea-icon linea-elaborate" data-icon="a"></span>
+                                <pre>a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="b"></span>
+                                <pre>b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="c"></span>
+                                <pre>c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="d"></span>
+                                <pre>d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="e"></span>
+                                <pre>e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="f"></span>
+                                <pre>f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="g"></span>
+                                <pre>g</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="h"></span>
+                                <pre>h</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="i"></span>
+                                <pre>i</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="j"></span>
+                                <pre>j</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="k"></span>
+                                <pre>k</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="l"></span>
+                                <pre>l</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="m"></span>
+                                <pre>m</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="n"></span>
+                                <pre>n</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="o"></span>
+                                <pre>o</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="p"></span>
+                                <pre>p</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="q"></span>
+                                <pre>q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="r"></span>
+                                <pre>r</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="s"></span>
+                                <pre>s</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="t"></span>
+                                <pre>t</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="u"></span>
+                                <pre>u</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="v"></span>
+                                <pre>v</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="w"></span>
+                                <pre>w</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="x"></span>
+                                <pre>x</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="y"></span>
+                                <pre>y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="z"></span>
+                                <pre>z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="A"></span>
+                                <pre>A</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="B"></span>
+                                <pre>B</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="C"></span>
+                                <pre>C</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="D"></span>
+                                <pre>D</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="E"></span>
+                                <pre>E</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="F"></span>
+                                <pre>F</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="G"></span>
+                                <pre>G</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="H"></span>
+                                <pre>H</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="I"></span>
+                                <pre>I</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="J"></span>
+                                <pre>J</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="K"></span>
+                                <pre>K</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="L"></span>
+                                <pre>L</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="M"></span>
+                                <pre>M</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="N"></span>
+                                <pre>N</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="O"></span>
+                                <pre>O</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="P"></span>
+                                <pre>P</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="Q"></span>
+                                <pre>Q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="R"></span>
+                                <pre>R</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="S"></span>
+                                <pre>S</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="T"></span>
+                                <pre>T</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="U"></span>
+                                <pre>U</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="V"></span>
+                                <pre>V</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="W"></span>
+                                <pre>W</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="X"></span>
+                                <pre>X</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="Y"></span>
+                                <pre>Y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="Z"></span>
+                                <pre>Z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="0"></span>
+                                <pre>0</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="1"></span>
+                                <pre>1</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="2"></span>
+                                <pre>2</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="3"></span>
+                                <pre>3</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="4"></span>
+                                <pre>4</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="5"></span>
+                                <pre>5</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="6"></span>
+                                <pre>6</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="7"></span>
+                                <pre>7</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="8"></span>
+                                <pre>8</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="9"></span>
+                                <pre>9</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="!"></span>
+                                <pre>!</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon='"'></span>
+                                <pre></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="#"></span>
+                                <pre>#</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="$"></span>
+                                <pre>$</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="%"></span>
+                                <pre>%</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&"></span>
+                                <pre>&</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="'"></span>
+                                <pre>'</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="("></span>
+                                <pre>(</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon=")"></span>
+                                <pre>)</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="*"></span>
+                                <pre>*</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="+"></span>
+                                <pre>+</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon=","></span>
+                                <pre>,</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="-"></span>
+                                <pre>-</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="."></span>
+                                <pre>.</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="/"></span>
+                                <pre>/</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon=":"></span>
+                                <pre>:</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon=";"></span>
+                                <pre>;</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="<"></span>
+                                <pre><</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="="></span>
+                                <pre>=</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon=">"></span>
+                                <pre>></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="?"></span>
+                                <pre>?</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="@"></span>
+                                <pre>@</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="["></span>
+                                <pre>[</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="]"></span>
+                                <pre>]</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="^"></span>
+                                <pre>^</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="_"></span>
+                                <pre>_</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="`"></span>
+                                <pre>`</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="{"></span>
+                                <pre>{</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="|"></span>
+                                <pre>|</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="}"></span>
+                                <pre>}</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="~"></span>
+                                <pre>~</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="\"></span>
+                                <pre>\</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe000;"></span>
+                                <pre>&amp#xe000</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe001;"></span>
+                                <pre>&amp#xe001</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe002;"></span>
+                                <pre>&amp#xe002</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe003;"></span>
+                                <pre>&amp#xe003</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe004;"></span>
+                                <pre>&amp#xe004</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe005;"></span>
+                                <pre>&amp#xe005</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe006;"></span>
+                                <pre>&amp#xe006</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe007;"></span>
+                                <pre>&amp#xe007</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe008;"></span>
+                                <pre>&amp#xe008</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe009;"></span>
+                                <pre>&amp#xe009</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe00a;"></span>
+                                <pre>&amp#xe00a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe00b;"></span>
+                                <pre>&amp#xe00b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe00c;"></span>
+                                <pre>&amp#xe00c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe00d;"></span>
+                                <pre>&amp#xe00d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe00e;"></span>
+                                <pre>&amp#xe00e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe00f;"></span>
+                                <pre>&amp#xe00f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe010;"></span>
+                                <pre>&amp#xe010</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe011;"></span>
+                                <pre>&amp#xe011</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe012;"></span>
+                                <pre>&amp#xe012</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe013;"></span>
+                                <pre>&amp#xe013</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe014;"></span>
+                                <pre>&amp#xe014</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe015;"></span>
+                                <pre>&amp#xe015</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe016;"></span>
+                                <pre>&amp#xe016</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe017;"></span>
+                                <pre>&amp#xe017</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe018;"></span>
+                                <pre>&amp#xe018</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe019;"></span>
+                                <pre>&amp#xe019</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe01a;"></span>
+                                <pre>&amp#xe01a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe01b;"></span>
+                                <pre>&amp#xe01b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe01c;"></span>
+                                <pre>&amp#xe01c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe01d;"></span>
+                                <pre>&amp#xe01d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe01e;"></span>
+                                <pre>&amp#xe01e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe01f;"></span>
+                                <pre>&amp#xe01f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe020;"></span>
+                                <pre>&amp#xe020</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe021;"></span>
+                                <pre>&amp#xe021</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe022;"></span>
+                                <pre>&amp#xe022</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe023;"></span>
+                                <pre>&amp#xe023</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe024;"></span>
+                                <pre>&amp#xe024</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe025;"></span>
+                                <pre>&amp#xe025</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe026;"></span>
+                                <pre>&amp#xe026</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe027;"></span>
+                                <pre>&amp#xe027</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe028;"></span>
+                                <pre>&amp#xe028</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe029;"></span>
+                                <pre>&amp#xe029</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe02a;"></span>
+                                <pre>&amp#xe02a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe02b;"></span>
+                                <pre>&amp#xe02b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe02c;"></span>
+                                <pre>&amp#xe02c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe02d;"></span>
+                                <pre>&amp#xe02d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe02e;"></span>
+                                <pre>&amp#xe02e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe02f;"></span>
+                                <pre>&amp#xe02f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe030;"></span>
+                                <pre>&amp#xe030</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe031;"></span>
+                                <pre>&amp#xe031</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-elaborate" data-icon="&#xe032;"></span>
+                                <pre>&amp#xe032</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+                <div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Ecommerece Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                        	<li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="a"></span>
+                                <pre>a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="b"></span>
+                                <pre>b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="c"></span>
+                                <pre>c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="d"></span>
+                                <pre>d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="e"></span>
+                                <pre>e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="f"></span>
+                                <pre>f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="g"></span>
+                                <pre>g</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="h"></span>
+                                <pre>h</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="i"></span>
+                                <pre>i</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="j"></span>
+                                <pre>j</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="k"></span>
+                                <pre>k</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="l"></span>
+                                <pre>l</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="m"></span>
+                                <pre>m</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="n"></span>
+                                <pre>n</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="o"></span>
+                                <pre>o</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="p"></span>
+                                <pre>p</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="q"></span>
+                                <pre>q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="r"></span>
+                                <pre>r</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="s"></span>
+                                <pre>s</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="t"></span>
+                                <pre>t</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="u"></span>
+                                <pre>u</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="v"></span>
+                                <pre>v</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="w"></span>
+                                <pre>w</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="x"></span>
+                                <pre>x</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="y"></span>
+                                <pre>y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="z"></span>
+                                <pre>z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="A"></span>
+                                <pre>A</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="B"></span>
+                                <pre>B</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="C"></span>
+                                <pre>C</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="D"></span>
+                                <pre>D</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="E"></span>
+                                <pre>E</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="F"></span>
+                                <pre>F</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="G"></span>
+                                <pre>G</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="H"></span>
+                                <pre>H</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="I"></span>
+                                <pre>I</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="J"></span>
+                                <pre>J</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="K"></span>
+                                <pre>K</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="L"></span>
+                                <pre>L</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="M"></span>
+                                <pre>M</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="N"></span>
+                                <pre>N</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="O"></span>
+                                <pre>O</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="P"></span>
+                                <pre>P</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="Q"></span>
+                                <pre>Q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="R"></span>
+                                <pre>R</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="S"></span>
+                                <pre>S</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="T"></span>
+                                <pre>T</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="U"></span>
+                                <pre>U</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="V"></span>
+                                <pre>V</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="W"></span>
+                                <pre>W</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="X"></span>
+                                <pre>X</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="Y"></span>
+                                <pre>Y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="Z"></span>
+                                <pre>Z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="0"></span>
+                                <pre>0</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="1"></span>
+                                <pre>1</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="2"></span>
+                                <pre>2</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="3"></span>
+                                <pre>3</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="4"></span>
+                                <pre>4</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="5"></span>
+                                <pre>5</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="6"></span>
+                                <pre>6</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="7"></span>
+                                <pre>7</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="8"></span>
+                                <pre>8</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="9"></span>
+                                <pre>9</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="!"></span>
+                                <pre>!</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon='"'></span>
+                                <pre></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="#"></span>
+                                <pre>#</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="$"></span>
+                                <pre>$</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="%"></span>
+                                <pre>%</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="&"></span>
+                                <pre>&</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="'"></span>
+                                <pre>'</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="("></span>
+                                <pre>(</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon=")"></span>
+                                <pre>)</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="*"></span>
+                                <pre>*</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="+"></span>
+                                <pre>+</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon=","></span>
+                                <pre>,</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="-"></span>
+                                <pre>-</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="."></span>
+                                <pre>.</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="/"></span>
+                                <pre>/</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon=":"></span>
+                                <pre>:</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon=";"></span>
+                                <pre>;</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="<"></span>
+                                <pre><</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="="></span>
+                                <pre>=</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon=">"></span>
+                                <pre>></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="?"></span>
+                                <pre>?</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="@"></span>
+                                <pre>@</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-ecommerce" data-icon="["></span>
+                                <pre>[</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+                <div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Software Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                        	<li>
+                            	<span class="linea-icon linea-software" data-icon="a"></span>
+                                <pre>a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="b"></span>
+                                <pre>b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="c"></span>
+                                <pre>c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="d"></span>
+                                <pre>d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="e"></span>
+                                <pre>e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="f"></span>
+                                <pre>f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="g"></span>
+                                <pre>g</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="h"></span>
+                                <pre>h</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="i"></span>
+                                <pre>i</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="j"></span>
+                                <pre>j</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="k"></span>
+                                <pre>k</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="l"></span>
+                                <pre>l</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="m"></span>
+                                <pre>m</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="n"></span>
+                                <pre>n</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="o"></span>
+                                <pre>o</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="p"></span>
+                                <pre>p</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="q"></span>
+                                <pre>q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="r"></span>
+                                <pre>r</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="s"></span>
+                                <pre>s</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="t"></span>
+                                <pre>t</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="u"></span>
+                                <pre>u</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="v"></span>
+                                <pre>v</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="w"></span>
+                                <pre>w</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="x"></span>
+                                <pre>x</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="y"></span>
+                                <pre>y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="z"></span>
+                                <pre>z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="A"></span>
+                                <pre>A</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="B"></span>
+                                <pre>B</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="C"></span>
+                                <pre>C</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="D"></span>
+                                <pre>D</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="E"></span>
+                                <pre>E</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="F"></span>
+                                <pre>F</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="G"></span>
+                                <pre>G</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="H"></span>
+                                <pre>H</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="I"></span>
+                                <pre>I</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="J"></span>
+                                <pre>J</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="K"></span>
+                                <pre>K</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="L"></span>
+                                <pre>L</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="M"></span>
+                                <pre>M</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="N"></span>
+                                <pre>N</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="O"></span>
+                                <pre>O</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="P"></span>
+                                <pre>P</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="Q"></span>
+                                <pre>Q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="R"></span>
+                                <pre>R</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="S"></span>
+                                <pre>S</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="T"></span>
+                                <pre>T</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="U"></span>
+                                <pre>U</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="V"></span>
+                                <pre>V</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="W"></span>
+                                <pre>W</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="X"></span>
+                                <pre>X</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="Y"></span>
+                                <pre>Y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="Z"></span>
+                                <pre>Z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="0"></span>
+                                <pre>0</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="1"></span>
+                                <pre>1</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="2"></span>
+                                <pre>2</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="3"></span>
+                                <pre>3</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="4"></span>
+                                <pre>4</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="5"></span>
+                                <pre>5</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="6"></span>
+                                <pre>6</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="7"></span>
+                                <pre>7</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="8"></span>
+                                <pre>8</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="9"></span>
+                                <pre>9</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="!"></span>
+                                <pre>!</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon='"'></span>
+                                <pre></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="#"></span>
+                                <pre>#</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="$"></span>
+                                <pre>$</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="%"></span>
+                                <pre>%</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&"></span>
+                                <pre>&</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="'"></span>
+                                <pre>'</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="("></span>
+                                <pre>(</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon=")"></span>
+                                <pre>)</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="*"></span>
+                                <pre>*</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="+"></span>
+                                <pre>+</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon=","></span>
+                                <pre>,</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="-"></span>
+                                <pre>-</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="."></span>
+                                <pre>.</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="/"></span>
+                                <pre>/</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon=":"></span>
+                                <pre>:</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon=";"></span>
+                                <pre>;</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="<"></span>
+                                <pre><</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="="></span>
+                                <pre>=</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon=">"></span>
+                                <pre>></pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="?"></span>
+                                <pre>?</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="@"></span>
+                                <pre>@</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="["></span>
+                                <pre>[</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="]"></span>
+                                <pre>]</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="^"></span>
+                                <pre>^</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="_"></span>
+                                <pre>_</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="`"></span>
+                                <pre>`</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="{"></span>
+                                <pre>{</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="|"></span>
+                                <pre>|</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="}"></span>
+                                <pre>}</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="~"></span>
+                                <pre>~</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="\"></span>
+                                <pre>\</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&#xe000;"></span>
+                                <pre>&amp#xe000</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&#xe001;"></span>
+                                <pre>&amp#xe001</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&#xe002;"></span>
+                                <pre>&amp#xe002</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&#xe003;"></span>
+                                <pre>&amp#xe003</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&#xe004;"></span>
+                                <pre>&amp#xe004</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-software" data-icon="&#xe005;"></span>
+                                <pre>&amp#xe005</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+                <div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Weather Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe000;"></span>
+                                <pre>&amp#xe000</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe001;"></span>
+                                <pre>&amp#xe001</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe002;"></span>
+                                <pre>&amp#xe002</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe003;"></span>
+                                <pre>&amp#xe003</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe004;"></span>
+                                <pre>&amp#xe004</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe005;"></span>
+                                <pre>&amp#xe005</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe006;"></span>
+                                <pre>&amp#xe006</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe007;"></span>
+                                <pre>&amp#xe007</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe008;"></span>
+                                <pre>&amp#xe008</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe009;"></span>
+                                <pre>&amp#xe009</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe00a;"></span>
+                                <pre>&amp#xe00a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe00b;"></span>
+                                <pre>&amp#xe00b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe00c;"></span>
+                                <pre>&amp#xe00c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe00d;"></span>
+                                <pre>&amp#xe00d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe00e;"></span>
+                                <pre>&amp#xe00e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe00f;"></span>
+                                <pre>&amp#xe00f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe010;"></span>
+                                <pre>&amp#xe010</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe011;"></span>
+                                <pre>&amp#xe011</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe012;"></span>
+                                <pre>&amp#xe012</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe013;"></span>
+                                <pre>&amp#xe013</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe014;"></span>
+                                <pre>&amp#xe014</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe015;"></span>
+                                <pre>&amp#xe015</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe016;"></span>
+                                <pre>&amp#xe016</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe017;"></span>
+                                <pre>&amp#xe017</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe018;"></span>
+                                <pre>&amp#xe018</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe019;"></span>
+                                <pre>&amp#xe019</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe01a;"></span>
+                                <pre>&amp#xe01a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe01b;"></span>
+                                <pre>&amp#xe01b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe01c;"></span>
+                                <pre>&amp#xe01c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe01d;"></span>
+                                <pre>&amp#xe01d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe01e;"></span>
+                                <pre>&amp#xe01e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe01f;"></span>
+                                <pre>&amp#xe01f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe020;"></span>
+                                <pre>&amp#xe020</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe021;"></span>
+                                <pre>&amp#xe021</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe022;"></span>
+                                <pre>&amp#xe022</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe023;"></span>
+                                <pre>&amp#xe023</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe024;"></span>
+                                <pre>&amp#xe024</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe025;"></span>
+                                <pre>&amp#xe025</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe026;"></span>
+                                <pre>&amp#xe026</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe027;"></span>
+                                <pre>&amp#xe027</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe028;"></span>
+                                <pre>&amp#xe028</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe029;"></span>
+                                <pre>&amp#xe029</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe02a;"></span>
+                                <pre>&amp#xe02a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe02b;"></span>
+                                <pre>&amp#xe02b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe02c;"></span>
+                                <pre>&amp#xe02c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe02d;"></span>
+                                <pre>&amp#xe02d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe02e;"></span>
+                                <pre>&amp#xe02e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe02f;"></span>
+                                <pre>&amp#xe02f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe030;"></span>
+                                <pre>&amp#xe030</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe031;"></span>
+                                <pre>&amp#xe031</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe032;"></span>
+                                <pre>&amp#xe032</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe033;"></span>
+                                <pre>&amp#xe033</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe034;"></span>
+                                <pre>&amp#xe034</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe035;"></span>
+                                <pre>&amp#xe035</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe036;"></span>
+                                <pre>&amp#xe036</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe037;"></span>
+                                <pre>&amp#xe037</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe038;"></span>
+                                <pre>&amp#xe038</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe039;"></span>
+                                <pre>&amp#xe039</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe03a;"></span>
+                                <pre>&amp#xe03a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe03b;"></span>
+                                <pre>&amp#xe03b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe03c;"></span>
+                                <pre>&amp#xe03c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe03d;"></span>
+                                <pre>&amp#xe03d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe03e;"></span>
+                                <pre>&amp#xe03e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe03f;"></span>
+                                <pre>&amp#xe03f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe040;"></span>
+                                <pre>&amp#xe040</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe041;"></span>
+                                <pre>&amp#xe041</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe042;"></span>
+                                <pre>&amp#xe042</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe043;"></span>
+                                <pre>&amp#xe043</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe044;"></span>
+                                <pre>&amp#xe044</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe045;"></span>
+                                <pre>&amp#xe045</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe046;"></span>
+                                <pre>&amp#xe046</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe047;"></span>
+                                <pre>&amp#xe047</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe048;"></span>
+                                <pre>&amp#xe048</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe049;"></span>
+                                <pre>&amp#xe049</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe04a;"></span>
+                                <pre>&amp#xe04a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe04b;"></span>
+                                <pre>&amp#xe04b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe04c;"></span>
+                                <pre>&amp#xe04c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe04d;"></span>
+                                <pre>&amp#xe04d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe04e;"></span>
+                                <pre>&amp#xe04e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe04f;"></span>
+                                <pre>&amp#xe04f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe050;"></span>
+                                <pre>&amp#xe050</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe051;"></span>
+                                <pre>&amp#xe051</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe052;"></span>
+                                <pre>&amp#xe052</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe053;"></span>
+                                <pre>&amp#xe053</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-weather" data-icon="&#xe054;"></span>
+                                <pre>&amp#xe054</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+                <div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Music Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                        	<li>
+                            	<span class="linea-icon linea-music" data-icon="a"></span>
+                                <pre>a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="b"></span>
+                                <pre>b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="c"></span>
+                                <pre>c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="d"></span>
+                                <pre>d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="e"></span>
+                                <pre>e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="f"></span>
+                                <pre>f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="g"></span>
+                                <pre>g</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="h"></span>
+                                <pre>h</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="i"></span>
+                                <pre>i</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="j"></span>
+                                <pre>j</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="k"></span>
+                                <pre>k</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="l"></span>
+                                <pre>l</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="m"></span>
+                                <pre>m</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="n"></span>
+                                <pre>n</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="o"></span>
+                                <pre>o</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="p"></span>
+                                <pre>p</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="q"></span>
+                                <pre>q</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="r"></span>
+                                <pre>r</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="s"></span>
+                                <pre>s</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="t"></span>
+                                <pre>t</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="u"></span>
+                                <pre>u</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="v"></span>
+                                <pre>v</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="w"></span>
+                                <pre>w</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="x"></span>
+                                <pre>x</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="y"></span>
+                                <pre>y</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="z"></span>
+                                <pre>z</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="A"></span>
+                                <pre>A</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="B"></span>
+                                <pre>B</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="C"></span>
+                                <pre>C</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-music" data-icon="D"></span>
+                                <pre>D</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+                <div class="panel">
+                	<div class="panel-heading">
+                    	<h4 class="text-success">Aerrow Icons</h4>
+                    </div><!-- panel-heading -->
+                    <div class="panel-body">
+                    	<ul class="char-mapping mt20">
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe000;"></span>
+                                <pre>&amp#xe000</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe001;"></span>
+                                <pre>&amp#xe001</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe002;"></span>
+                                <pre>&amp#xe002</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe003;"></span>
+                                <pre>&amp#xe003</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe004;"></span>
+                                <pre>&amp#xe004</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe005;"></span>
+                                <pre>&amp#xe005</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe006;"></span>
+                                <pre>&amp#xe006</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe007;"></span>
+                                <pre>&amp#xe007</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe008;"></span>
+                                <pre>&amp#xe008</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe009;"></span>
+                                <pre>&amp#xe009</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe00a;"></span>
+                                <pre>&amp#xe00a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe00b;"></span>
+                                <pre>&amp#xe00b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe00c;"></span>
+                                <pre>&amp#xe00c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe00d;"></span>
+                                <pre>&amp#xe00d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe00e;"></span>
+                                <pre>&amp#xe00e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe00f;"></span>
+                                <pre>&amp#xe00f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe010;"></span>
+                                <pre>&amp#xe010</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe011;"></span>
+                                <pre>&amp#xe011</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe012;"></span>
+                                <pre>&amp#xe012</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe013;"></span>
+                                <pre>&amp#xe013</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe014;"></span>
+                                <pre>&amp#xe014</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe015;"></span>
+                                <pre>&amp#xe015</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe016;"></span>
+                                <pre>&amp#xe016</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe017;"></span>
+                                <pre>&amp#xe017</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe018;"></span>
+                                <pre>&amp#xe018</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe019;"></span>
+                                <pre>&amp#xe019</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe01a;"></span>
+                                <pre>&amp#xe01a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe01b;"></span>
+                                <pre>&amp#xe01b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe01c;"></span>
+                                <pre>&amp#xe01c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe01d;"></span>
+                                <pre>&amp#xe01d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe01e;"></span>
+                                <pre>&amp#xe01e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe01f;"></span>
+                                <pre>&amp#xe01f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe020;"></span>
+                                <pre>&amp#xe020</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe021;"></span>
+                                <pre>&amp#xe021</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe022;"></span>
+                                <pre>&amp#xe022</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe023;"></span>
+                                <pre>&amp#xe023</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe024;"></span>
+                                <pre>&amp#xe024</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe025;"></span>
+                                <pre>&amp#xe025</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe026;"></span>
+                                <pre>&amp#xe026</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe027;"></span>
+                                <pre>&amp#xe027</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe028;"></span>
+                                <pre>&amp#xe028</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe029;"></span>
+                                <pre>&amp#xe029</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe02a;"></span>
+                                <pre>&amp#xe02a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe02b;"></span>
+                                <pre>&amp#xe02b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe02c;"></span>
+                                <pre>&amp#xe02c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe02d;"></span>
+                                <pre>&amp#xe02d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe02e;"></span>
+                                <pre>&amp#xe02e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe02f;"></span>
+                                <pre>&amp#xe02f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe030;"></span>
+                                <pre>&amp#xe030</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe031;"></span>
+                                <pre>&amp#xe031</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe032;"></span>
+                                <pre>&amp#xe032</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe033;"></span>
+                                <pre>&amp#xe033</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe034;"></span>
+                                <pre>&amp#xe034</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe035;"></span>
+                                <pre>&amp#xe035</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe036;"></span>
+                                <pre>&amp#xe036</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe037;"></span>
+                                <pre>&amp#xe037</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe038;"></span>
+                                <pre>&amp#xe038</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe039;"></span>
+                                <pre>&amp#xe039</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe03a;"></span>
+                                <pre>&amp#xe03a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe03b;"></span>
+                                <pre>&amp#xe03b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe03c;"></span>
+                                <pre>&amp#xe03c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe03d;"></span>
+                                <pre>&amp#xe03d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe03e;"></span>
+                                <pre>&amp#xe03e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe03f;"></span>
+                                <pre>&amp#xe03f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe040;"></span>
+                                <pre>&amp#xe040</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe041;"></span>
+                                <pre>&amp#xe041</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe042;"></span>
+                                <pre>&amp#xe042</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe043;"></span>
+                                <pre>&amp#xe043</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe044;"></span>
+                                <pre>&amp#xe044</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe045;"></span>
+                                <pre>&amp#xe045</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe046;"></span>
+                                <pre>&amp#xe046</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe047;"></span>
+                                <pre>&amp#xe047</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe048;"></span>
+                                <pre>&amp#xe048</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe049;"></span>
+                                <pre>&amp#xe049</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe04a;"></span>
+                                <pre>&amp#xe04a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe04b;"></span>
+                                <pre>&amp#xe04b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe04c;"></span>
+                                <pre>&amp#xe04c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe04d;"></span>
+                                <pre>&amp#xe04d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe04e;"></span>
+                                <pre>&amp#xe04e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe04f;"></span>
+                                <pre>&amp#xe04f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe050;"></span>
+                                <pre>&amp#xe050</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe051;"></span>
+                                <pre>&amp#xe051</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe052;"></span>
+                                <pre>&amp#xe052</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe053;"></span>
+                                <pre>&amp#xe053</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe054;"></span>
+                                <pre>&amp#xe054</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe055;"></span>
+                                <pre>&amp#xe055</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe056;"></span>
+                                <pre>&amp#xe056</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe057;"></span>
+                                <pre>&amp#xe057</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe058;"></span>
+                                <pre>&amp#xe058</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe059;"></span>
+                                <pre>&amp#xe059</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe05a;"></span>
+                                <pre>&amp#xe05a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe05b;"></span>
+                                <pre>&amp#xe05b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe05c;"></span>
+                                <pre>&amp#xe05c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe05d;"></span>
+                                <pre>&amp#xe05d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe05e;"></span>
+                                <pre>&amp#xe05e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe05f;"></span>
+                                <pre>&amp#xe05f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe060;"></span>
+                                <pre>&amp#xe060</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe061;"></span>
+                                <pre>&amp#xe061</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe062;"></span>
+                                <pre>&amp#xe062</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe063;"></span>
+                                <pre>&amp#xe063</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe064;"></span>
+                                <pre>&amp#xe064</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe065;"></span>
+                                <pre>&amp#xe065</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe066;"></span>
+                                <pre>&amp#xe066</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe067;"></span>
+                                <pre>&amp#xe067</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe068;"></span>
+                                <pre>&amp#xe068</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe069;"></span>
+                                <pre>&amp#xe069</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe06a;"></span>
+                                <pre>&amp#xe06a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe06b;"></span>
+                                <pre>&amp#xe06b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe06c;"></span>
+                                <pre>&amp#xe06c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe06d;"></span>
+                                <pre>&amp#xe06d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe06e;"></span>
+                                <pre>&amp#xe06e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe06f;"></span>
+                                <pre>&amp#xe06f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe060;"></span>
+                                <pre>&amp#xe060</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe071;"></span>
+                                <pre>&amp#xe071</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe072;"></span>
+                                <pre>&amp#xe072</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe073;"></span>
+                                <pre>&amp#xe073</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe074;"></span>
+                                <pre>&amp#xe074</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe075;"></span>
+                                <pre>&amp#xe075</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe076;"></span>
+                                <pre>&amp#xe076</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe077;"></span>
+                                <pre>&amp#xe077</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe078;"></span>
+                                <pre>&amp#xe078</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe079;"></span>
+                                <pre>&amp#xe079</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe07a;"></span>
+                                <pre>&amp#xe07a</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe07b;"></span>
+                                <pre>&amp#xe07b</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe07c;"></span>
+                                <pre>&amp#xe07c</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe07d;"></span>
+                                <pre>&amp#xe07d</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe07e;"></span>
+                                <pre>&amp#xe07e</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe07f;"></span>
+                                <pre>&amp#xe07f</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe080;"></span>
+                                <pre>&amp#xe080</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe081;"></span>
+                                <pre>&amp#xe081</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe082;"></span>
+                                <pre>&amp#xe082</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe083;"></span>
+                                <pre>&amp#xe083</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe084;"></span>
+                                <pre>&amp#xe084</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe085;"></span>
+                                <pre>&amp#xe085</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe086;"></span>
+                                <pre>&amp#xe086</pre>
+                            </li>
+                            <li>
+                            	<span class="linea-icon linea-aerrow" data-icon="&#xe087;"></span>
+                                <pre>&amp#xe087</pre>
+                            </li>
+                        </ul>
+                    </div><!-- panel-body -->
+                </div><!-- panel -->
+            </div><!-- container -->
+        </section><!-- main-page--content -->
+        
+    </section><!-- page-content -->
+    
+    <footer class="main-footer">
+    	<div class="container-fluid">
+        	<span class="copyright">
+        		© 2017 Badan Usaha Milik Ohoi (Bumo) Kabupaten Maluku Tenggara
+            </span>
+            <ul class="footer-nav">
+            	<li><a href="#!">Contact Us</a></li>
+                <li><a href="#!">Terms</a></li>
+                <li><a href="#!">Privacy</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</div><!-- main -->
+
+<script>
+	
+	$('.thumb img').fillBox();
+	
+	$('.main-header .header-nav').sticky({topSpacing:0});
+	
+</script>
+
+</body>
+</html>

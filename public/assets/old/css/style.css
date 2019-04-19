@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,400,500,600,700|Quicksand:300,400,500,700');
+
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+@font-face {
+    font-family: "proxima-nova";
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/proximanova/proximanova-bold/proximanova-bold-webfont.eot?#iefix') format("embedded-opentype"),
+		 url("../fonts/proximanova/proximanova-bold/proximanova-bold-webfont.woff") format("woff"),
+		 url("../fonts/proximanova/proximanova-bold/proximanova-bold-webfont.ttf") format("truetype"),
+		 url("../fonts/proximanova/proximanova-bold/proximanova-bold-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-style: italic;
+    font-weight: 700;
+    src: url("../fonts/proximanova/proximanova-boldit/proximanova-boldit-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/proximanova/proximanova-boldit/proximanova-boldit-webfont.woff") format("woff"),
+		 url("../fonts/proximanova/proximanova-boldit/proximanova-boldit-webfont.ttf") format("truetype"),
+		 url("../fonts/proximanova/proximanova-boldit/proximanova-boldit-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/proximanova/proximanova-reg/proximanova-reg-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/proximanova/proximanova-reg/proximanova-reg-webfont.woff") format("woff"),
+		 url("../fonts/proximanova/proximanova-reg/proximanova-reg-webfont.ttf") format("truetype"),
+		 url("../fonts/proximanova/proximanova-reg/proximanova-reg-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/proximanova/proximanova-regit/proximanova-regit-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/proximanova/proximanova-regit/proximanova-regit-webfont.woff") format("woff"),
+		 url("../fonts/proximanova/proximanova-regit/proximanova-regit-webfont.ttf") format("truetype"),
+		 url("../fonts/proximanova/proximanova-regit/proximanova-regit-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/proximanova/proximanova-light/proximanova-light-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/proximanova/proximanova-light/proximanova-light-webfont.woff") format("woff"),
+		 url("../fonts/proximanova/proximanova-light/proximanova-light-webfont.ttf") format("truetype"),
+		 url("../fonts/proximanova/proximanova-light/proximanova-light-webfont.svg") format("svg");
+}
+
+@font-face {
+    font-family: "proxima-nova";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/proximanova/proximanova-sbold/proximanova-sbold-webfont.eot?#iefix") format("embedded-opentype"),
+		 url("../fonts/proximanova/proximanova-sbold/proximanova-sbold-webfont.woff") format("woff"),
+		 url("../fonts/proximanova/proximanova-sbold/proximanova-sbold-webfont.ttf") format("truetype"),
+		 url("../fonts/proximanova/proximanova-sbold/proximanova-sbold-webfont.svg") format("svg");
+}
+
+::-moz-selection {
+	background-color: #131E2A;
+	color: #fff	
+}
+
+::-moz-placeholder {
+	color: #B7BFC7 !important	
+}
+
+html {
+	font-size: 14px	
+}
+
+body {
+	font-family: 'proxima-nova';
+	font-size: 1em;
+	line-height: 1.55em;
+	color: #131E2A;
+	background-color: #F2F4F5
+}
+
+html,
+body,
+#main {
+	height: 100%	
+}
+
+#main {
+	min-width: 1024px	
+}
+
+a {
+	color: inherit	
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none	
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0 0 1em;
+	font-weight: 600	
+}
+
+h1 {
+	font-size: 2.5em;
+	line-height: 1.15em	
+}
+
+h2 {
+	font-size: 2em;
+	line-height: 1.185em	
+}
+
+h3 {
+	font-size: 1.625em;
+	line-height: 1.25em	
+}
+
+h4 {
+	font-size: 1.375em;
+	line-height: 1.275em	
+}
+
+h5 {
+	font-size: 1.175em;
+	line-height: 1.35em	
+}
+
+p {
+	margin: 0 0 1em	
+}
+
+.thumb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%	
+}
+
+.dropdown-menu {
+	font-size: inherit;
+	min-width: 180px;
+	padding: 0;
+	box-shadow: none;
+	border-radius: 0;
+	border: 1px solid #E8EBED
+}
+
+.dropdown-menu li {
+	display: block;
+	float: none	!important
+}
+
+.dropdown-menu li .icon {
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: -2px;
+	margin-right: 10px;
+	color: #131E2A	
+}
+
+.dropdown-menu li a {
+	display: block;
+	line-height: inherit;
+	padding: 8px 15px;
+	line-height: inherit;
+	color: #7E8791		
+}
+
+.dropdown-menu li a:hover {
+	background-color: #F7F9FA;
+	color: inherit	
+}
+
+.breadcrumb {
+	padding: 0;
+	background-color: transparent;
+	border-radius: 0;
+	margin: 0;
+	color: #7E8791
+}
+
+.breadcrumb li a:hover {
+	color: #131E2A	
+}
+
+.breadcrumb li + li:before {
+	content: '\f2fb';
+	font-family: 'Material-Design-Iconic-Font';
+	margin-right: 3px;
+	display: inline-block;
+	margin-top: -2px;
+	vertical-align: middle;
+	color: inherit;
+}
+
+/*/////////////// FORM */
+.form-group {
+	margin-bottom: 20px;
+	position: relative	
+}
+
+.form-control {
+	padding: 12px 20px;
+	height: 50px;
+	border-radius: 0;
+	box-shadow: none;
+	border: 2px solid #DFE3E6;
+	font-size: inherit;
+	letter-spacing: inherit;
+	color: inherit;
+	line-height: inherit;
+	transition: none
+}
+
+.form-control:focus {
+	box-shadow: none;
+	border-color: #232F3B	
+}
+
+.btn {
+    padding: 0 20px;
+	line-height: 46px;
+	height: 50px;
+    font-size: inherit;
+    font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+    border: 2px solid transparent;
+    border-radius: 0;
+	background-color: #F2F4F5;
+	transition: none
+}
+
+.btn:focus {
+	box-shadow: none	
+}
+
+.btn-primary {
+	background-color: #2DC716;
+	color: #fff;
+	border-color: transparent
+}
+
+.btn-primary:hover {
+	background-color: #31D618;
+	border-color: transparent
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:focus:active {
+	background-color: #2EBF17;
+	border-color: transparent	
+}
+
+label {
+	font-weight: normal;
+	margin: 0;
+	color: inherit;
+	max-width: none;
+	cursor: pointer	
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0;
+    line-height: inherit;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+.checkbox-wrap {
+	position: relative	
+}
+
+input[type="checkbox"] + label {
+	margin-left: 15px;
+	line-height: 22px;
+	cursor: pointer	
+}
+
+input[type="checkbox"] + label:before,
+input[type="checkbox"] + label:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	margin: 0;
+	border-radius: 0;
+	border: 2px solid #DFE3E6;
+	overflow: visible
+}
+
+input[type="checkbox"] + label:hover::before  {
+	border-color: #2DC716	
+}
+
+input[type="checkbox"] + label:after {
+	content: '\f26b';
+	font-family: 'Material-Design-Iconic-Font';
+	border: none;
+	background-color: #2DC716;
+	color: #fff;
+	line-height: 21px;
+	font-size: 16px;
+	text-align: center;
+	opacity: 0	
+}
+
+input[type="checkbox"]:checked + label:after {
+	opacity: 1
+}
+
+/*/////////////// PANEL */
+.panel {
+    margin-bottom: 30px;
+    border-radius: 0;
+	background-color: #fff;
+	border: 1px solid #E8EBED;
+	position: relative;
+	box-shadow: none
+}
+
+.panel-heading {
+	padding: 20px 20px 0
+}
+
+.panel-heading h3,
+.panel-heading h4,
+.panel-heading h5 {
+	margin: 0;
+	font-weight: 400;
+	color: #2DC716
+}
+
+.panel-heading span {
+	color: #7E8791	
+}
+
+.panel-body:before,
+.panel-body:after {
+	content: "";
+	display: table;
+	clear: both	
+}
+
+.panel-body {
+	padding: 20px
+}
+
+.panel-button1 .panel-body {
+	position: relative;
+	padding: 25px 60px
+}
+
+.panel-button1 .icon {
+	position: absolute;
+	top: 50%;
+	margin-top: -14px;
+	left: 20px;
+	font-size: 28px;
+	color: #2DC716	
+}
+
+.panel-button1 span {
+	color: #7E8791
+}
+
+.panel-button1 h5 {
+	font-weight: normal;
+	line-height: 1em;
+	margin: 0;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis	
+}
+
+.panel-button1 .counter {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	margin-top: -13px;
+	font-size: 2em;
+	line-height: 26px
+}
+
+.panel .chart-wrapper {
+	margin: 0 -20px 30px -20px	
+}
+
+.panel .table-responsive {
+	margin: 0 -20px	
+}
+
+.panel .table {
+	margin: 0	
+}
+
+/*/////////////// TABLE */
+.table-responsive {
+	width: auto;
+	overflow: auto;
+	border: none	
+}
+
+.table thead tr th, .table tbody tr td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.table thead tr th:first-child, .table tbody tr td:first-child {
+	padding-left: 20px	
+}
+
+.table thead tr th:last-child, .table tbody tr td:last-child {
+	padding-right: 20px	
+}
+
+.table thead tr th {
+    font-weight: 600;
+    border-bottom-color: #E8EBED
+}
+
+.table tbody tr td {
+    border-top-color: #E8EBED
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #F9FBFC
+}
+
+table {
+	white-space: nowrap	
+}
+
+table a:hover,
+table a:focus {
+	color: #2DC716	
+}
+
+/*/////////////// CUSTOMIZE MORRIS STYLE */
+circle {
+  stroke-width: 3;
+  fill: #B7BFC7
+}
+
+svg text {
+	font: 700 15px "proxima-nova" !important
+}
+
+svg text:last-child {
+	font: 400 14px "proxima-nova" !important
+}
+
+.morris-hover.morris-default-style {
+    border-radius: 0;
+    padding: 10px;
+    color: inherit;
+    background: rgba(255, 255, 255, .85);
+    border: 1px solid #E8EBED;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+.morris-hover.morris-default-style .morris-hover-row-label {
+	font-weight: 600;
+	line-height: 1em;
+	font-size: 1.175em;
+	margin: 0 0 5px
+}
+
+.morris-hover.morris-default-style .morris-hover-point {
+	color: #7E8791 !important;
+	line-height: 1.25em;
+	margin: 0;
+	font-size: 13px 	
+}
